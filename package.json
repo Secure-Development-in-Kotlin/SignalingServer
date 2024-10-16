@@ -1,0 +1,24 @@
+{
+	"name": "signalingserver",
+	"version": "1.0.0",
+	"description": "Necessary code to deploy the signaling server mandatory for Burner Chat",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Secure-Development-in-Kotlin/SignalingServer.git"
+	},
+	"author": "Secure Development in Kotlin",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Secure-Development-in-Kotlin/SignalingServer/issues"
+	},
+	"homepage": "https://github.com/Secure-Development-in-Kotlin/SignalingServer#readme",
+	"dependencies": {
+		"nodemon": "^3.1.7",
+		"websocket": "^1.0.34"
+	}
+}
